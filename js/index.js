@@ -6,4 +6,4 @@ function getRandomColor(){
     return `rgb(${dig[0]}, ${dig[1]}, ${dig[2]})`
 }
 
-document.body.style.backgroundColor = getRanomColor()
+document.body.style.backgroundColor = getRandomColor()
