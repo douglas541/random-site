@@ -1,4 +1,4 @@
-function getRandomNumber(){
+function getRandomColor(){
     var dig = []
     for(var i = 0 ; i < 3 ; i++){
         dig[i] = Math.floor(Math.random() * 255)
@@ -6,4 +6,4 @@ function getRandomNumber(){
     return `rgb(${dig[0]}, ${dig[1]}, ${dig[2]})`
 }
 
-document.body.style.backgroundColor = getRandomNumber()
+document.body.style.backgroundColor = getRandomColor()
